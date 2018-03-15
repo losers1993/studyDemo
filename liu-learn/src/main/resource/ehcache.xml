@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache  xsi:noNamespaceSchemaLocation="http://ehcache.xsd">
+
+	<diskStore path="D:\ehcache"/>
+	
+	<defaultCache eternal="true" maxElementsInMemory="2" overflowToDisk="true"></defaultCache>
+	
+	<cache name="a" eternal="true" maxElementsInMemory="2" overflowToDisk="true"></cache>
+	
+</ehcache>
